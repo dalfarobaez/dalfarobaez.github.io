@@ -41,11 +41,11 @@
   font-family: var(--tipografia_CV);
 }
 
-.link_menu, .link_menu:active, .link_menu:visited, .link_menu:hover, .link_menu:active, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+.link_menu, .link_menu:active, .link_menu:visited, .link_menu:active, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
   color: var(--texto_blanco);
   padding-right: 1rem;
 }
-.navbar-nav .nav-link:hover{
+.navbar-nav .nav-link:hover, .link_menu:hover{
   color: var(--celeste);
 }
 
